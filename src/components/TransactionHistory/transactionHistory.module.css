@@ -1,0 +1,28 @@
+.transaction_history{
+    width: 750px;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    color: #4d4949;
+    text-align: center;
+    margin: auto auto;
+}
+th {
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #bbbaba;
+    background-color: #6de3f3;
+    color: white;
+    padding: 15px 0 15px 0;
+}
+
+td {
+    font-weight: 300;
+    font-size: 14px;
+    border: 1px solid #bbbaba; 
+    padding: 5px 0 5px 0;
+}
+
+tr:nth-child(2n-1) {
+    background-color: #d6d8d8;
+}
+
